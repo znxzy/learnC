@@ -8,6 +8,9 @@
 
 文件名命名有些乱。
 
+使用的教材是 《C 语言编程  -- 一体全面的 C 语言入门教程（第三版）》 （Programming in C -- A complete introduction to the C programming language, Third Edition) Stephen G. Kochan 著
+
+
 #### 参与贡献
 
 1. Fork 本仓库
