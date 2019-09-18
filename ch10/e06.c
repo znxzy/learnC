@@ -6,12 +6,19 @@
 
 void removeString(char text[], int index, int size)
 {
-	while (index <= size) {
-                text[index] = text[index + size];
-                ++index;
+        int i;
+
+        for (i = 0; text[i] != '\0'; ++i) {
+		if (i <= index) {
+                        text[i] = text[i];
+                } else if (i < (index + size)){
+                        continue;
+                } else {
+                	text[i - size] = text[i];
+		}
         }
-	
-	text[index] = '\0';
+
+        text[i - size] = '\0';
 }
 
 
